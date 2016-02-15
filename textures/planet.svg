@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128"
+   height="128"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="planet.svg"
+   inkscape:export-filename="/mnt/storage/owncloud/2DSSS/textures/planet1.png"
+   inkscape:export-xdpi="89.305771"
+   inkscape:export-ydpi="89.305771">
+  <defs
+     id="defs4">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3094">
+      <path
+         sodipodi:type="arc"
+         style="fill:#0000de;fill-opacity:1;fill-rule:nonzero;stroke:#50aad8;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.92788463;stroke-dasharray:none"
+         id="path3096"
+         sodipodi:cx="261.78571"
+         sodipodi:cy="505.57648"
+         sodipodi:rx="24.642857"
+         sodipodi:ry="24.642857"
+         d="m 286.42856,505.57648 a 24.642857,24.642857 0 1 1 -49.28571,0 24.642857,24.642857 0 1 1 49.28571,0 z"
+         transform="translate(1.4285718,-2.1428572)" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath4074">
+      <path
+         style="fill:#000000;fill-opacity:0;fill-rule:nonzero;stroke:#ffffff;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:0.92788463"
+         d="m 128.0094,987.85748 c 0,35.07272 -28.432025,63.50472 -63.504702,63.50472 -35.072676,0 -63.50469816,-28.432 -63.50469816,-63.50472 0,-35.07267 28.43202216,-63.50469 63.50469816,-63.50469 35.072677,0 63.504702,28.43202 63.504702,63.50469 z"
+         id="path4076"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="33.810341"
+     inkscape:cy="86.5272"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1030"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-924.36218)">
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path2997"
+       sodipodi:cx="9.9107141"
+       sodipodi:cy="10.946429"
+       sodipodi:rx="9.375"
+       sodipodi:ry="9.375"
+       d="m 19.285714,10.946429 a 9.375,9.375 0 1 1 -18.74999985,0 9.375,9.375 0 1 1 18.74999985,0 z"
+       transform="matrix(1.3872633,0,0,1.3872633,26.761035,863.29772)"
+       inkscape:export-filename="/mnt/storage/owncloud/2DSSS/textures/planet6.png"
+       inkscape:export-xdpi="89.305771"
+       inkscape:export-ydpi="89.305771" />
+    <g
+       id="g4065"
+       clip-path="url(#clipPath4074)"
+       style="stroke:#ffffff;stroke-opacity:1;fill:#000000;fill-opacity:1"
+       transform="matrix(0.99221001,0,0,0.99217567,9.806799e-6,8.2340222)"
+       inkscape:export-filename="/mnt/storage/owncloud/2DSSS/textures/planet6.png"
+       inkscape:export-xdpi="89.305771"
+       inkscape:export-ydpi="89.305771">
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.17043542999999994;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 4.8838217,975.05542 120.4643583,0 c 4.4547,0 8.04098,3.58628 8.04098,8.04098 l 0,9.139 c 0,4.4547 -3.58628,8.041 -8.04098,8.041 l -120.4643583,0 c -4.45470044,0 -8.0409755,-3.5863 -8.0409755,-8.041 l 0,-9.139 c 0,-4.4547 3.58627506,-8.04098 8.0409755,-8.04098 z"
+         id="rect3888"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.17831801999999985;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 8.1601334,958.58221 114.3387166,0 c 2.89475,0 5.22518,2.33043 5.22518,5.22518 l 0,5.9387 c 0,2.89475 -2.33043,5.22518 -5.22518,5.22518 l -114.3387166,0 c -2.8947488,0 -5.2251783,-2.33043 -5.2251783,-5.22518 l 0,-5.9387 c 0,-2.89475 2.3304295,-5.22518 5.2251783,-5.22518 z"
+         id="rect3888-3-2"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.14852333000000018;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 17.627344,943.8797 95.222846,0 c 2.58782,0 4.67115,2.08333 4.67115,4.67115 l 0,5.30901 c 0,2.58781 -2.08333,4.67114 -4.67115,4.67114 l -95.222846,0 c -2.587815,0 -4.671146,-2.08333 -4.671146,-4.67114 l 0,-5.30901 c 0,-2.58782 2.083331,-4.67115 4.671146,-4.67115 z"
+         id="rect3888-3-2-5"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.17043542999999994;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 40.861985,927.3338 48.450045,0 c 2.880627,0 5.199689,2.31906 5.199689,5.19969 l 0,5.90973 c 0,2.88062 -2.319062,5.19968 -5.199689,5.19968 l -48.450045,0 c -2.880627,0 -5.199689,-2.31906 -5.199689,-5.19968 l 0,-5.90973 c 0,-2.88063 2.319062,-5.19969 5.199689,-5.19969 z"
+         id="rect3888-3-2-5-4"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.17831801999999985;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 8.1602855,1016.7602 114.3387245,0 c 2.89475,0 5.22517,-2.3304 5.22517,-5.2252 l 0,-5.9387 c 0,-2.8947 -2.33042,-5.2252 -5.22517,-5.2252 l -114.3387245,0 c -2.8947488,0 -5.2251783,2.3305 -5.2251783,5.2252 l 0,5.9387 c 0,2.8948 2.3304295,5.2252 5.2251783,5.2252 z"
+         id="rect3888-3-2-8"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.14852333000000018;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 17.627493,1031.463 95.222847,0 c 2.58782,0 4.67115,-2.0833 4.67115,-4.6711 l 0,-5.309 c 0,-2.5879 -2.08333,-4.6712 -4.67115,-4.6712 l -95.222847,0 c -2.587814,0 -4.671146,2.0833 -4.671146,4.6712 l 0,5.309 c 0,2.5878 2.083332,4.6711 4.671146,4.6711 z"
+         id="rect3888-3-2-5-9"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.17043542999999994;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1"
+         d="m 40.862138,1048.0087 48.450044,0 c 2.880628,0 5.199689,-2.3191 5.199689,-5.1997 l 0,-5.9097 c 0,-2.8807 -2.319061,-5.1997 -5.199689,-5.1997 l -48.450044,0 c -2.880628,0 -5.199689,2.319 -5.199689,5.1997 l 0,5.9097 c 0,2.8806 2.319061,5.1997 5.199689,5.1997 z"
+         id="rect3888-3-2-5-4-2"
+         inkscape:connector-curvature="0" />
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="fill:#000000;fill-opacity:0;fill-rule:nonzero;stroke:#ffffff;stroke-width:2.01897311000000013;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3098"
+       sodipodi:cx="26.607143"
+       sodipodi:cy="49.607143"
+       sodipodi:rx="64.10714"
+       sodipodi:ry="64.10714"
+       d="m 90.714283,49.607143 c 0,35.405396 -28.701744,64.107137 -64.10714,64.107137 -35.4053951,0 -64.107139,-28.701741 -64.107139,-64.107137 0,-35.405395 28.7017439,-64.107139 64.107139,-64.107139 35.405396,0 64.10714,28.701744 64.10714,64.107139 z"
+       transform="matrix(0.98288581,0,0,0.98285178,37.850433,939.60571)"
+       inkscape:export-filename="/mnt/storage/owncloud/2DSSS/textures/planet6.png"
+       inkscape:export-xdpi="89.305771"
+       inkscape:export-ydpi="89.305771" />
+    <path
+       style="fill:#ffffff;fill-opacity:0;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.25056654;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 124.70273,1003.3008 c -0.34628,-0.4539 -0.35626,-0.5639 -0.12249,-1.3508 0.062,-0.2085 -2.86562,-0.2193 -60.236928,-0.2211 -33.166132,0 -60.3734672,-0.047 -60.4607458,-0.1027 -0.3450388,-0.219 1.394012,-1.3031 2.6643969,-1.66086 0.5345776,-0.15056 9.0857819,-0.17643 58.3203699,-0.17643 55.644577,0 57.720447,0.008 58.440207,0.23029 0.41046,0.1266 0.85994,0.3098 0.99884,0.4071 0.40359,0.2827 0.54497,0.2105 0.63532,-0.3242 0.0589,-0.34854 0.14806,-0.50164 0.2929,-0.50283 0.11454,-9.4e-4 0.32749,-0.0337 0.47324,-0.0728 l 0.26499,-0.0711 -0.22517,1.16903 c -0.12386,0.643 -0.33123,1.6111 -0.46085,2.1512 l -0.23566,0.9821 -0.34842,-0.4568 0,0 z"
+       id="path4085"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/mnt/storage/owncloud/2DSSS/textures/planet6.png"
+       inkscape:export-xdpi="89.305771"
+       inkscape:export-ydpi="89.305771" />
+    <path
+       style="fill:#ffffff;fill-opacity:0;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.25056654;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 3.3678374,1001.1458 c -0.068612,-0.264 -0.164271,-0.7563 -0.2125737,-1.0941 -0.086116,-0.60222 -0.082011,-0.61262 0.2111556,-0.53505 0.1644383,0.0435 0.9683647,0.11731 1.7865027,0.16402 l 1.4875238,0.0849 -0.7358111,0.26903 c -0.8412431,0.3075 -1.7050418,0.8283 -2.1243188,1.2807 l -0.287728,0.3105 -0.1247505,-0.48 z"
+       id="path4087"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/mnt/storage/owncloud/2DSSS/textures/planet6.png"
+       inkscape:export-xdpi="89.305771"
+       inkscape:export-ydpi="89.305771" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35714287000000000;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 93.632538,18.809791 c 0.157955,-0.174539 0.503433,-0.789677 0.767728,-1.366973 0.442514,-0.966576 0.487542,-1.280578 0.569069,-3.968371 0.04869,-1.605307 0.142774,-2.918741 0.209068,-2.918741 0.245588,0 3.910525,2.416027 5.811577,3.831154 1.96085,1.459635 2.90517,2.237589 4.70189,3.873555 l 0.9519,0.86672 -6.649214,0 c -6.359932,0 -6.636716,-0.01381 -6.362018,-0.317344 z"
+       id="path3781"
+       inkscape:connector-curvature="0"
+       transform="translate(0,924.36218)"
+       inkscape:export-filename="/mnt/storage/owncloud/2DSSS/textures/planet6.png"
+       inkscape:export-xdpi="89.305771"
+       inkscape:export-ydpi="89.305771" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 54.224262,2.8076116 c 0.177229,-0.068312 3.691899,-0.4832215 5.044642,-0.5955245 1.815251,-0.1506996 7.649036,-0.1506996 9.464286,0 1.352744,0.112303 4.867414,0.5272128 5.044643,0.5955245 0.04911,0.018928 -4.350446,0.034414 -9.776786,0.034414 -5.426339,0 -9.825892,-0.015487 -9.776785,-0.034414 z"
+       id="path3783"
+       inkscape:connector-curvature="0"
+       transform="translate(0,924.36218)"
+       inkscape:export-filename="/mnt/storage/owncloud/2DSSS/textures/planet6.png"
+       inkscape:export-xdpi="89.305771"
+       inkscape:export-ydpi="89.305771" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="M 9.9211519,33.771302 C 10.467038,32.80388 11.146803,31.648093 11.403303,31.251238 l 0.330424,-0.51123 0.145295,0.702662 c 0.139452,0.674402 0.691973,1.941258 0.934402,2.142457 0.06391,0.05304 0.116195,0.131692 0.116195,0.174786 0,0.0431 -0.685407,0.07835 -1.523126,0.07835 -0.83772,0 -1.5061233,-0.03013 -1.4853411,-0.06696 z"
+       id="path3787"
+       inkscape:connector-curvature="0"
+       transform="translate(0,924.36218)"
+       inkscape:export-filename="/mnt/storage/owncloud/2DSSS/textures/planet6.png"
+       inkscape:export-xdpi="89.305771"
+       inkscape:export-ydpi="89.305771" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 116.81879,33.332231 c 0.1676,-0.27832 0.32809,-0.579659 0.35665,-0.669643 0.0965,-0.303908 0.12338,-0.276691 0.65512,0.662286 l 0.29074,0.513392 -0.80361,0 -0.80362,0 0.30472,-0.506035 0,0 z"
+       id="path3789"
+       inkscape:connector-curvature="0"
+       transform="translate(0,924.36218)"
+       inkscape:export-filename="/mnt/storage/owncloud/2DSSS/textures/planet6.png"
+       inkscape:export-xdpi="89.305771"
+       inkscape:export-ydpi="89.305771" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 117.03418,94.598288 -0.38447,-0.701891 0.8033,0 0.8033,0 -0.40272,0.669643 c -0.22149,0.368303 -0.40997,0.684154 -0.41883,0.701891 -0.009,0.01774 -0.18913,-0.283603 -0.40058,-0.669643 z"
+       id="path3791"
+       inkscape:connector-curvature="0"
+       transform="translate(0,924.36218)"
+       inkscape:export-filename="/mnt/storage/owncloud/2DSSS/textures/planet6.png"
+       inkscape:export-xdpi="89.305771"
+       inkscape:export-ydpi="89.305771" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 59.120041,125.75113 c -1.251604,-0.10634 -6.33051,-0.81199 -6.413691,-0.89111 -0.04092,-0.0389 5.021578,-0.0627 11.25,-0.0528 6.446259,0.0102 11.055178,0.0819 10.699405,0.16644 -2.097093,0.49828 -5.212093,0.75103 -9.821428,0.7969 -2.700893,0.0269 -5.272322,0.0182 -5.714286,-0.0194 z"
+       id="path3793"
+       inkscape:connector-curvature="0"
+       transform="translate(0,924.36218)"
+       inkscape:export-filename="/mnt/storage/owncloud/2DSSS/textures/planet6.png"
+       inkscape:export-xdpi="89.305771"
+       inkscape:export-ydpi="89.305771" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 94.966229,114.38747 c -0.101248,-3.26864 -0.221293,-3.84775 -1.059407,-5.11066 -0.284811,-0.42917 -0.486312,-0.81184 -0.44778,-0.85037 0.03853,-0.0385 3.124149,-0.049 6.856928,-0.0233 l 6.78687,0.0468 -1.71461,1.55243 c -0.94304,0.85383 -2.39765,2.0902 -3.23248,2.74748 -1.53371,1.20753 -6.712354,4.71795 -6.960027,4.71795 -0.07374,0 -0.177016,-1.38617 -0.229494,-3.08036 z"
+       id="path3795"
+       inkscape:connector-curvature="0"
+       transform="translate(0,924.36218)"
+       inkscape:export-filename="/mnt/storage/owncloud/2DSSS/textures/planet6.png"
+       inkscape:export-xdpi="89.305771"
+       inkscape:export-ydpi="89.305771" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 32.245041,117.12476 c -3.530705,-2.11208 -7.253885,-4.9079 -10.446428,-7.84447 l -0.982143,-0.9034 7.455357,-0.008 c 4.163854,-0.005 7.455357,0.0611 7.455357,0.1486 0,0.0862 -0.111729,0.24943 -0.248286,0.36276 -0.136557,0.11334 -0.437896,0.62541 -0.669643,1.13794 -0.386618,0.85505 -0.428718,1.23486 -0.510642,4.60679 l -0.08929,3.67492 -1.964286,-1.17504 0,0 z"
+       id="path3797"
+       inkscape:connector-curvature="0"
+       transform="translate(0,924.36218)"
+       inkscape:export-filename="/mnt/storage/owncloud/2DSSS/textures/planet6.png"
+       inkscape:export-xdpi="89.305771"
+       inkscape:export-ydpi="89.305771" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 10.76399,95.570831 -0.9453375,-1.585149 1.3689795,-0.05255 c 0.752939,-0.0289 1.404929,-0.0166 1.448866,0.02734 0.04394,0.04394 -0.09505,0.422798 -0.308871,0.841913 -0.213816,0.419115 -0.440404,1.12013 -0.503528,1.557811 L 11.709327,97.15598 10.76399,95.570831 z"
+       id="path3799"
+       inkscape:connector-curvature="0"
+       transform="translate(0,924.36218)"
+       inkscape:export-filename="/mnt/storage/owncloud/2DSSS/textures/planet6.png"
+       inkscape:export-xdpi="89.305771"
+       inkscape:export-ydpi="89.305771" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d=""
+       id="path3803"
+       inkscape:connector-curvature="0"
+       transform="translate(0,924.36218)" />
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 21.08293,19.266286 c 0.01023,-0.0078 0.31994,-0.294389 0.688244,-0.636788 3.696404,-3.43642 7.758619,-6.397113 12.053571,-8.7850916 l 0.446429,-0.2482128 0.02682,3.1122574 c 0.01637,1.899223 0.04515,3.199258 0.07384,3.335472 0.255063,1.211059 0.752692,2.264877 1.419982,3.007064 l 0.206379,0.229543 -7.466935,0 c -4.106814,0 -7.458564,-0.0064 -7.448333,-0.01424 z"
+       id="path3809"
+       inkscape:connector-curvature="0"
+       transform="translate(0,924.36218)"
+       inkscape:export-filename="/mnt/storage/owncloud/2DSSS/textures/planet6.png"
+       inkscape:export-xdpi="89.305771"
+       inkscape:export-ydpi="89.305771" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 141.16882,882.9091 269.45818,1011.451 z"
+       id="path3830"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/mnt/storage/owncloud/2DSSS/textures/planet5.png"
+       inkscape:export-xdpi="89.305771"
+       inkscape:export-ydpi="89.305771" />
+  </g>
+</svg>
