@@ -97,6 +97,8 @@ class SSS_2D(ShowBase):
         self.accept("arrow_right-up", self.setKey, ["p2turnRight", 0])
         self.accept("arrow_up",       self.setKey, ["p2accel", 1])
         self.accept("arrow_up-up",    self.setKey, ["p2accel", 0])
+
+        # NUMPAD for p2
         self.accept("1",              self.setKey, ["p2fire", 1])
         self.accept("1-up",           self.setKey, ["p2fire", 0])
         self.accept("3",              self.setKey, ["p2laser", 1])
@@ -105,10 +107,23 @@ class SSS_2D(ShowBase):
         self.accept("4-up",           self.setKey, ["e_to_s2", 0])
         self.accept("5",              self.setKey, ["s_to_e2", 1])
         self.accept("5-up",           self.setKey, ["s_to_e2", 0])
-        self.accept("arrow_down",              self.setKey, ["cloak2", 1])
-        self.accept("arrow_down-up",           self.setKey, ["cloak2", 0])
         self.accept("2",              self.setKey, ["e_field2", 1])
         self.accept("2-up",           self.setKey, ["e_field2", 0])
+        # NO NUMPAD for p2
+        self.accept("l",              self.setKey, ["p2fire", 1])
+        self.accept("l-up",           self.setKey, ["p2fire", 0])
+        self.accept("'",              self.setKey, ["p2laser", 1])
+        self.accept("'-up",           self.setKey, ["p2laser", 0])
+        self.accept("o",              self.setKey, ["e_to_s2", 1])
+        self.accept("o-up",           self.setKey, ["e_to_s2", 0])
+        self.accept("p",              self.setKey, ["s_to_e2", 1])
+        self.accept("p-up",           self.setKey, ["s_to_e2", 0])
+        self.accept(";",              self.setKey, ["e_field2", 1])
+        self.accept(";-up",           self.setKey, ["e_field2", 0])
+
+
+        self.accept("arrow_down",              self.setKey, ["cloak2", 1])
+        self.accept("arrow_down-up",           self.setKey, ["cloak2", 0])
 
         self.accept("f1",             self.setKey, ["toggle_debug", 1])
         self.accept("mouse1",         self.setKey, ["mouse_l", 1])
@@ -129,6 +144,12 @@ class SSS_2D(ShowBase):
 
         if planets == 1:
             init_planet(self, pos=(2,2))
+       
+        if asteroids == 1:
+            asteroids = 10
+        else:
+            asteroids = 0
+
             # init_planet(self, pos=(2,2))
             # init_planet(self, pos=(-2,-2))
             # init_planet(self, pos=(12,8))
@@ -195,9 +216,13 @@ class SSS_2D(ShowBase):
                         defines.PLANET_ON = 1
                     else:
                         defines.PLANET_ON = 0
+                if entity['LABEL'] == 'asteroids':
+                    if entity['STATUS'] == 1:
+                        defines.ASTEROIDS_ON = 1
+                    else:
+                        defines.ASTEROIDS_ON = 0
                 if entity['LABEL'] == 'exit' and entity['STATUS'] == 1:
-                    sys.exit
-                    ds.ds
+                    sys.exit()
                 if entity['LABEL'] == 'new_game' and entity['STATUS'] == 1:
                     for entity_id, entity in defines.ENTITIES.items():
                         if entity['CATEGORY'] == 'button':
@@ -206,7 +231,7 @@ class SSS_2D(ShowBase):
                             taskMgr.remove(entity['TASK'])
                         entity['NODE'].removeNode()
                         del defines.ENTITIES[entity_id]
-                    self.init_game(player1=True, player2=True, asteroids=10, planets=defines.PLANET_ON)
+                    self.init_game(player1=True, player2=True, planets=defines.PLANET_ON, asteroids=defines.ASTEROIDS_ON)
                     defines.GAME_ONGOING = 1
                     defines.GAME_WON = 0
                     self.gameTask = taskMgr.add(self.gameLoop, "gameLoop")
@@ -218,8 +243,9 @@ def init_menu(self):
 
     
     add_button(self, "New Game", 'new_game', 0,0.5, width=0.5) # self, text, posx, posy, width, hight
-    add_button(self, "Planet", 'planet', 0,0.3, width=0.5) # self, text, posx, posy, width, hight
-    add_button(self, "Exit", 'exit', 0,0.1, width=0.5) # self, text, posx, posy, width, hight
+    add_button(self, "Asteroids", 'asteroids', 0,0.3, width=0.5) # self, text, posx, posy, width, hight
+    add_button(self, "Planet", 'planet', 0,0.1, width=0.5) # self, text, posx, posy, width, hight
+    add_button(self, "Exit", 'exit', 0,-0.1, width=0.5) # self, text, posx, posy, width, hight
 
 
  

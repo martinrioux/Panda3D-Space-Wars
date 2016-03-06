@@ -6,12 +6,14 @@ def init_defines():
 
     global ENTITY_ID
     ENTITY_ID = 0
-    global GAME_ONGOING
-    GAME_ONGOING = 0
-    global GAME_WON
     GAME_WON = 0
     global ENTITIES
     ENTITIES  = {}
+    global GAME_ONGOING
+    GAME_ONGOING = 0
+    global ASTEROIDS_ON
+    ASTEROIDS_ON = 0
+    global GAME_WON
     global SPRITE_POS
     SPRITE_POS = 55     # At default field of view and a depth of 55, the screen dimensions is 40x30 units
     global SCREEN_X
