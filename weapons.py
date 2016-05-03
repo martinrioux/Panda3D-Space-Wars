@@ -46,6 +46,7 @@ class weapon(object):
                                                         category_bits=category_bits, mask_bits=mask_bits, den=self.bullet_density)
             # physic_debug.reparentTo(new_bullet)
 
+            new_bullet.setPos(physic_body.position.x, 55, physic_body.position.y)
             physic_body.linearVelocity.Set(defines.ENTITIES[entity_id]['BODY'].linearVelocity.x, defines.ENTITIES[entity_id]['BODY'].linearVelocity.y)
             physic_body.angularVelocity = defines.ENTITIES[entity_id]['BODY'].angularVelocity
 

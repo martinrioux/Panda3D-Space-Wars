@@ -3,15 +3,20 @@ from math import pi
 
 
 def init_defines():
-
+    global LAST_POS_UPDATE
+    LAST_POS_UPDATE = 0
     global ENTITY_ID
     ENTITY_ID = 0
-    global GAME_ONGOING
-    GAME_ONGOING = 0
     global GAME_WON
     GAME_WON = 0
     global ENTITIES
     ENTITIES  = {}
+    global GAME_ONGOING
+    GAME_ONGOING = 0
+    global ASTEROIDS_ON
+    ASTEROIDS_ON = 0
+    global DT_FACTOR
+    DT_FACTOR = 50
     global SPRITE_POS
     SPRITE_POS = 55     # At default field of view and a depth of 55, the screen dimensions is 40x30 units
     global SCREEN_X
@@ -46,15 +51,7 @@ def init_defines():
     AST_SIZE_SCALE = .6  # How much asteroid scale changes when broken up
     global AST_MIN_SCALE
     AST_MIN_SCALE = 1.1  # If and asteroid is smaller than this and is hit,
-    global world        #physic world
-    global X_MAX_LOCATION    
-    X_MAX_LOCATION = 28            
-    global X_RETURN_LOCATION  
-    X_RETURN_LOCATION = 28          
-    global Y_MAX_LOCATION    
-    Y_MAX_LOCATION = 16         
-    global Y_RETURN_LOCATION     
-    Y_RETURN_LOCATION = 16    
+    global world        #physic world 
     global DISPLAY_PHYSIC_DEBUG        
     DISPLAY_PHYSIC_DEBUG = 0
     global CONTACT_LIST        

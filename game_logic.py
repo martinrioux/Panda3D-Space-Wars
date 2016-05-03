@@ -3,8 +3,8 @@ from ship import update_ship
 from asteroids import break_asteroid
 from graphics import player_win
 
-def update_game_logic(self):
-    update_ship(self)
+def update_game_logic(self, dt):
+    update_ship(self, dt)
     for entity_id, entity in defines.ENTITIES.items():
         if entity['CATEGORY'] == 'bullet' and globalClock.getRealTime() > entity['EXPIRE']:
             entity['NODE'].removeNode()

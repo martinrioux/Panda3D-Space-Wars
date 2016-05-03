@@ -43,7 +43,7 @@ def get_contacts_list():
         add_contacts_to_list(entity_id, contacts)
 
 
-def manage_contacts():
+def manage_contacts(dt):
     i = 0
     for contact in defines.CONTACT_LIST:
         try:
@@ -52,17 +52,17 @@ def manage_contacts():
             #print ("Entity: " + str(defines.ENTITIES[contact[0]]['CATEGORY']) + " -- In contact with: " + str(defines.ENTITIES[contact[1]]['CATEGORY']) + " -- At: " + str(contact[2]))
             #ASTEROID-SHIP
             if defines.ENTITIES[contact[0]]['CATEGORY'] == "ship" and defines.ENTITIES[contact[1]]['CATEGORY'] == "asteroid":
-                defines.ENTITIES[contact[0]]['SHIELD'] -= contact[2]
+                defines.ENTITIES[contact[0]]['SHIELD'] -= contact[2] * dt * defines.DT_FACTOR
 
             if defines.ENTITIES[contact[1]]['CATEGORY'] == "ship" and defines.ENTITIES[contact[0]]['CATEGORY'] == "asteroid":
-                defines.ENTITIES[contact[1]]['SHIELD'] -= contact[2]
+                defines.ENTITIES[contact[1]]['SHIELD'] -= contact[2] * dt * defines.DT_FACTOR
 
             #ASTEROID-SHIP2
             if defines.ENTITIES[contact[0]]['CATEGORY'] == "ship2" and defines.ENTITIES[contact[1]]['CATEGORY'] == "asteroid":
-                defines.ENTITIES[contact[0]]['SHIELD'] -= contact[2]
+                defines.ENTITIES[contact[0]]['SHIELD'] -= contact[2] * dt * defines.DT_FACTOR
 
             if defines.ENTITIES[contact[1]]['CATEGORY'] == "ship2" and defines.ENTITIES[contact[0]]['CATEGORY'] == "asteroid":
-                defines.ENTITIES[contact[1]]['SHIELD'] -= contact[2]
+                defines.ENTITIES[contact[1]]['SHIELD'] -= contact[2] * dt * defines.DT_FACTOR
 
             # PLANET-SHIP
             # if defines.ENTITIES[contact[0]]['CATEGORY'] == "ship" and defines.ENTITIES[contact[1]]['CATEGORY'] == "planet":

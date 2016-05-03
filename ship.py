@@ -66,6 +66,7 @@ def add_shield(self, entity_id):
             bodyB=physic_body
         )
     new_shield = loadObject('shield.png', scale=1)
+    new_shield.setPos(physic_body.position.x, 55, physic_body.position.y)
     physic_body.linearVelocity.Set(defines.ENTITIES[entity_id]['BODY'].linearVelocity.x, defines.ENTITIES[entity_id]['BODY'].linearVelocity.y)
     physic_body.angularVelocity = defines.ENTITIES[entity_id]['BODY'].angularVelocity
 
@@ -76,7 +77,7 @@ def add_shield(self, entity_id):
     # CreateFixturesFromShapes
 
 
-def update_ship(self):
+def update_ship(self, dt):
     for entity_id, entity in defines.ENTITIES.items(): 
         if entity['CATEGORY'] == "ship":
             self.life_bar.setSx(entity['SHIELD']/250)
@@ -84,7 +85,7 @@ def update_ship(self):
             self.energy_bar.setSx(entity['ENERGY']/250)
             self.energy_bar.setX(0.45 + entity['ENERGY']/250)
             if entity['ENERGY'] < 100:
-                entity['ENERGY'] += 0.1
+                entity['ENERGY'] += 0.1 * dt * defines.DT_FACTOR
             if self.keys["turnRight"]:
                 entity['BODY'].ApplyTorque(-5, True)
             elif self.keys["turnLeft"]:
@@ -98,22 +99,22 @@ def update_ship(self):
             if self.keys["laser"] and entity['ENERGY'] >= 10:
                 entity['WEAPON'].fire_laser(self, entity_id)
             if self.keys["e_to_s"] and entity['ENERGY'] >= 5 and entity['SHIELD'] < 100:
-                entity['ENERGY'] -= 2
-                entity['SHIELD'] += 1
+                entity['ENERGY'] -= 2 * dt * defines.DT_FACTOR
+                entity['SHIELD'] += 1 * dt * defines.DT_FACTOR
             if self.keys["s_to_e"] and entity['SHIELD'] >= 5 and entity['ENERGY'] < 100:
-                entity['ENERGY'] += 2
-                entity['SHIELD'] -= 1
+                entity['ENERGY'] += 2 * dt * defines.DT_FACTOR
+                entity['SHIELD'] -= 1 * dt * defines.DT_FACTOR
             if self.keys["cloak"] and entity['ENERGY'] > 5 :
                 entity['NODE'].detachNode()
-                entity['ENERGY'] -= 0.2
+                entity['ENERGY'] -= 0.2 * dt * defines.DT_FACTOR
             else:
                 entity['NODE'].reparentTo(render)
             if self.keys["e_field"] == 1 and ((entity['ENERGY'] > 5 and entity['E_FIELD_ENABLED'] == True) or (entity['ENERGY'] > 20)):
                 if entity['E_FIELD_ENABLED'] == False:
-                    entity['ENERGY'] -= 3
+                    entity['ENERGY'] -= 3 * dt * defines.DT_FACTOR
                     add_shield(self, entity_id)
                     entity['E_FIELD_ENABLED'] = True
-                entity['ENERGY'] -= 0.3
+                entity['ENERGY'] -= 0.3 * dt * defines.DT_FACTOR
             elif entity['E_FIELD_ENABLED'] == True:
                 defines.world.DestroyBody(entity['E_FIELD_BODY'])
                 entity['E_FIELD_DEBUG_NODE'].removeNode()
@@ -126,7 +127,7 @@ def update_ship(self):
             self.energy_bar2.setSx(entity['ENERGY']/250)
             self.energy_bar2.setX(-0.95 + entity['ENERGY']/250)
             if entity['ENERGY'] < 100:
-                entity['ENERGY'] += 0.1
+                entity['ENERGY'] += 0.1 * dt * defines.DT_FACTOR
             if self.keys["p2turnRight"]:
                 entity['BODY'].ApplyTorque(-5, True)
             elif self.keys["p2turnLeft"]:
@@ -140,22 +141,22 @@ def update_ship(self):
             if self.keys["p2laser"] and entity['ENERGY'] >= 5:
                 entity['WEAPON'].fire_laser(self, entity_id)
             if self.keys["e_to_s2"] and entity['ENERGY'] >= 5 and entity['SHIELD'] < 100:
-                entity['ENERGY'] -= 2
-                entity['SHIELD'] += 1
+                entity['ENERGY'] -= 2 * dt * defines.DT_FACTOR
+                entity['SHIELD'] += 1 * dt * defines.DT_FACTOR
             if self.keys["s_to_e2"] and entity['SHIELD'] >= 5 and entity['ENERGY'] < 100:
-                entity['ENERGY'] += 2
-                entity['SHIELD'] -= 1
+                entity['ENERGY'] += 2 * dt * defines.DT_FACTOR
+                entity['SHIELD'] -= 1 * dt * defines.DT_FACTOR
             if self.keys["cloak2"] and entity['ENERGY'] > 5 :
                 entity['NODE'].detachNode()
-                entity['ENERGY'] -= 0.2
+                entity['ENERGY'] -= 0.2 * dt * defines.DT_FACTOR
             else:
                 entity['NODE'].reparentTo(render)
             if self.keys["e_field2"] == 1 and ((entity['ENERGY'] > 5 and entity['E_FIELD_ENABLED'] == True) or (entity['ENERGY'] > 20)):
                 if entity['E_FIELD_ENABLED'] == False:
-                    entity['ENERGY'] -= 3
+                    entity['ENERGY'] -= 3 * dt * defines.DT_FACTOR
                     add_shield(self, entity_id)
                     entity['E_FIELD_ENABLED'] = True
-                entity['ENERGY'] -= 0.3
+                entity['ENERGY'] -= 0.3 * dt * defines.DT_FACTOR
             elif entity['E_FIELD_ENABLED'] == True:
                 defines.world.DestroyBody(entity['E_FIELD_BODY'])
                 entity['E_FIELD_DEBUG_NODE'].removeNode()

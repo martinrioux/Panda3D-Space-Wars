@@ -36,15 +36,23 @@ def player_win(self, player):
       sound.setVolume(0.5)
       sound.play()
       if player == 'ship':
-        self.win = OnscreenText(text="Player 2 win", scale=0.1, pos=(0, 0),
+        self.winner = OnscreenText(text="Player 2 win", scale=0.1, pos=(0, 0),
                         fg=(1, 1, 1, 1), shadow=(0, 0, 0, 0.5))
       else:
-        self.win = OnscreenText(text="Player 1 win", scale=0.1, pos=(0, 0),
+        self.winner = OnscreenText(text="Player 1 win", scale=0.1, pos=(0, 0),
                         fg=(1, 1, 1, 1), shadow=(0, 0, 0, 0.5))
 
       task = taskMgr.doMethodLater(5, self.reset_game, 'reset game')
 
 def update_graphics(self):
+    width = (base.win.getXSize() + 0.0) / (base.win.getYSize() + 0.0)
+    height = 1
+
+    X_MAX_LOCATION = width * 15
+    X_RETURN_LOCATION = width * 15
+    Y_MAX_LOCATION = height * 15
+    Y_RETURN_LOCATION = height * 15
+
     if self.keys["toggle_debug"] ==  1:
             if defines.DISPLAY_PHYSIC_DEBUG == 1:
                 defines.DISPLAY_PHYSIC_DEBUG = 0
@@ -62,17 +70,17 @@ def update_graphics(self):
         x_pos = pos.x
         y_pos = pos.y
         replace = 0
-        if x_pos > defines.X_MAX_LOCATION:
-            x_pos = -defines.X_RETURN_LOCATION
+        if x_pos > X_MAX_LOCATION:
+            x_pos = -X_RETURN_LOCATION
             replace = 1
-        if x_pos < -defines.X_MAX_LOCATION:
-            x_pos = defines.X_RETURN_LOCATION
+        if x_pos < -X_MAX_LOCATION:
+            x_pos = X_RETURN_LOCATION
             replace = 1
-        if y_pos > defines.Y_MAX_LOCATION:
-            y_pos = -defines.Y_RETURN_LOCATION
+        if y_pos > Y_MAX_LOCATION:
+            y_pos = -Y_RETURN_LOCATION
             replace = 1
-        if y_pos < -defines.Y_MAX_LOCATION:
-            y_pos = defines.Y_RETURN_LOCATION
+        if y_pos < -Y_MAX_LOCATION:
+            y_pos = Y_RETURN_LOCATION
             replace = 1
         if replace == 1:
           if entity['CATEGORY'] == 'ship':
