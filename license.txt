@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 SpaceWar "clone" made with panda3D.
 
 Needs panda3D and pyBox2D library (https://github.com/pybox2d/pybox2d).
+=======
+Test game demo
+>>>>>>> 5d2d10c7c871aceaa91b2f71744053f87d7e5085

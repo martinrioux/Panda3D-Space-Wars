@@ -7,7 +7,10 @@ def init_defines():
     LAST_POS_UPDATE = 0
     global ENTITY_ID
     ENTITY_ID = 0
+<<<<<<< HEAD
     global GAME_WON
+=======
+>>>>>>> 5d2d10c7c871aceaa91b2f71744053f87d7e5085
     GAME_WON = 0
     global ENTITIES
     ENTITIES  = {}
@@ -15,8 +18,12 @@ def init_defines():
     GAME_ONGOING = 0
     global ASTEROIDS_ON
     ASTEROIDS_ON = 0
+<<<<<<< HEAD
     global DT_FACTOR
     DT_FACTOR = 50
+=======
+    global GAME_WON
+>>>>>>> 5d2d10c7c871aceaa91b2f71744053f87d7e5085
     global SPRITE_POS
     SPRITE_POS = 55     # At default field of view and a depth of 55, the screen dimensions is 40x30 units
     global SCREEN_X
